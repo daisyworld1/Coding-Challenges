@@ -2,7 +2,7 @@
 //create a function that does binary search
 //assume array has been sorted from small to large
 function binarySearch(arr,num){
-  //create a object whose key is the index number
+  //create a object whose value is the index number
   var obj = {};
   for (var i = 0; i < arr.length; i++){
     obj[arr[i]] = i;
@@ -24,4 +24,4 @@ function binarySearch(arr,num){
   }
 };
 
-binarySearch([1, 3, 16, 22, 31, 33, 34],33);
+binarySearch([1, 3, 16, 22, 31, 33, 34],35);
