@@ -9,7 +9,7 @@ function binarySearch(arr,num){
   }
   //interate over the arr
   var halfArray = arr
-  for(var i = 0; i < arr.length; i++){
+  for(var i = 0; i < Math.log2(arr.length); i++){
     //compare mid point number to the target number
     var midNum = halfArray[Math.floor(halfArray.length/2)]
     
